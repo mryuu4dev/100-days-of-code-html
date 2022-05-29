@@ -1,0 +1,45 @@
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 25px;
+}
+
+.articles article {
+  background: #fff;
+  border: 1px solid #ececec;
+  border-radius: 2px;
+  box-shadow: 5px 3px 3px #ccc;
+  padding-bottom: 25px;
+  position: relative;
+  width: 45%;
+}
+
+.articles .tag {
+  background-color: #1d1972;
+  border-radius: 20px;
+  color: white;
+  font-size: 11px;
+  left: 10px;
+  padding: 4px 10px;
+  position: absolute;
+  top: 10px;
+}
+
+.articles article img {
+  width: 100%;
+}
+
+.articles article time {
+  color: #b5b5b5;
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 13px 13px 8px;
+}
+
+.articles article h2 {
+  color: #555;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px 13px 0;
+}
